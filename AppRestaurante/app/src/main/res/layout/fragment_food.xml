@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/recyclerViewFood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hamburguesa: $200.99" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Orden de tacos: $150.99" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pizza Familiar: $300.99" />
+
+
+    <!-- Agrega más TextViews o usa RecyclerView -->
+</LinearLayout>
+
